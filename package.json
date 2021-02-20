@@ -9,7 +9,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "14.14.31",
     "tslint": "5.12.1",
     "typescript": "3.3.3"
+  },
+  "dependencies": {
+    "koa": "2.13.1"
   }
 }
