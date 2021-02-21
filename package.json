@@ -4,7 +4,8 @@
   "description": "Earthquake observant node js tool on new-relic one",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node --harmony dist/app.js"
   },
   "author": "",
   "license": "MIT",
@@ -14,6 +15,9 @@
     "typescript": "3.3.3"
   },
   "dependencies": {
-    "koa": "2.13.1"
+    "dotenv": "8.2.0",
+    "koa": "2.13.1",
+    "koa-morgan": "1.0.1",
+    "koa-router": "10.0.0"
   }
 }
